@@ -1,0 +1,21 @@
+{
+  "name": "jeremy-token",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ethjs": "^0.2.8",
+    "expresss": "^0.0.0",
+    "metamascara": "^1.3.1",
+    "morgan": "^1.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "solc": "^0.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
