@@ -77,7 +77,7 @@ button {
   flex-flow: column nowrap;
   align-items: center;
   width: 500px;
-  margin: 24px auto 0;
+  margin: 24px auto;
 }
 
 .manage__section {

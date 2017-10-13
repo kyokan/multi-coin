@@ -446,6 +446,15 @@ class App extends Component {
   }
 
   render() {
+    if (!eth) {
+      return (
+        <div className="App">
+          <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en">
+            Please install Metamask
+          </a>
+        </div>
+      );
+    }
     return (
       <div className="App">
         <header className="App-header">
